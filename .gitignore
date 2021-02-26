@@ -1,0 +1,13 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.target/
+# Project exclude paths
+/client/target/
+/common/target/
+/dashboard/target/
+/registry/target/
+/rpc/target/
+/server/target/
