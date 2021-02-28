@@ -63,12 +63,12 @@ public class ProtostuffObjectInput implements ObjectInput {
 
     @SuppressWarnings("unchecked")
     @Override
-    public <T> T readObject(Class<T> clazz) throws IOException, ClassNotFoundException {
+    public <T> T readObject(Class<T> clazz) throws IOException {
         return (T) readObject();
     }
 
     @Override
-    public <T> T readObject(Class<T> cls, Type type) throws IOException, ClassNotFoundException {
+    public <T> T readObject(Class<T> cls, Type type) throws IOException {
         return readObject(cls);
     }
 

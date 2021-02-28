@@ -7,6 +7,7 @@ import cn.com.serialize.protobuf.Serialization;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 import java.io.*;
 
 public class ProtostuffSerializationTest {
