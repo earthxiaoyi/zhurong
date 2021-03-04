@@ -2,6 +2,9 @@ package cn.com.server.metric;
 
 import cn.com.server.data.MetricBucket;
 
+/**
+ *
+ */
 public class BucketSlideArray extends SlideArray<MetricBucket> {
 
     public BucketSlideArray(int sampleCount, int intervalInMs) {
